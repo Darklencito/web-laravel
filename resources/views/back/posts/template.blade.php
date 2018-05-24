@@ -132,7 +132,7 @@
                         primary
                     @endslot
                     @slot('boxTitle')
-                        @lang('Image')
+                        @lang('Imagen')
                     @endslot
                     <img id="img" src="@isset($post) {{ $post->image }} @endisset" alt="" class="img-responsive">
                     @slot('footer')
